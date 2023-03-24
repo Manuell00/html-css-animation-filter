@@ -22,7 +22,7 @@
     padding: 0;
 }
 
-#btnControl {
+#btnControl2 {
     display: none;
 }
 
@@ -63,11 +63,29 @@
 
 /* Esercizio 5 */
 .ex-5-square {
-    margin: 20px;
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background: red;
+    transition: all 2s linear;
 }
+
+.ex-5-square:hover {
+    width: 250px;
+    height: 250px;
+}
+
+#btnControl5 {
+    display: none;
+}
+
+#btnControl5:checked + label > .ex-5-square {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* Esercizi 6-7-8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
