@@ -116,10 +116,27 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s linear;
+    filter: contrast(0.3) blur(0.7);
+    object-fit: fill;
 }
+
+/* Esercizio 10 */
 .ex-10-icon {
     font-size: 60px;
+    animation-name: esercizio-10;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
 }
+
+@keyframes esercizio-10 {
+    0%   {transform: rotate(0 );}
+    100% {transform: rotate(360deg);}
+  }
+
+
+/* Esercizio 11 */
 .ex-11-icon {
     font-size: 60px;
 }
