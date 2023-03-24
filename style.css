@@ -30,8 +30,8 @@
     width: 400px;
 }
 
-/* Esercizio 3 */ 
 
+/* Esercizio 3 */ 
 .ex-3-square {
     width: 100px;
     height: 100px;
@@ -46,12 +46,22 @@
 
 
 /* Esercizio 4 */
-
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: esercizio-4;
+    animation-duration: 4s;
 }
+
+/* The animation code for exercise 4 */
+@keyframes esercizio-4 {
+    0%   {width: 100px; height: 100px;}
+    100% {width: 0px;height: 0px;}
+  }
+
+
+/* Esercizio 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
